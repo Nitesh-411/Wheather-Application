@@ -15,6 +15,8 @@ async function checkWeather(city) {
 
   const data = await response.json();
   console.log(data);
+
+  //for testing purposes doing changes for learning github
   
 
   document.querySelector(".city").innerHTML = data.name;
